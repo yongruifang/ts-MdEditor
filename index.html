@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <!-- <link rel="" stylesheet" href="" integrity="" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@4.5.2/dist/cerulean/bootstrap.min.css"
+        integrity="sha384-3fdgwJw17Bi87e1QQ4fsLn4rUFqWw//KU0g8TvV6quvahISRewev6/EocKNuJmEw" crossorigin="anonymous">
+    <style>
+        html,
+        body {
+            height: 100%;
+        }
+    </style>
+    <title>TS-MDEDITOR</title>
+</head>
+
+<body>
+    <div class="container-fluid h-100 d-flex flex-column">
+        <div class="row">
+            <div class="col-md-12">
+                <h3 class="text-center text-primary">
+                    TS-MDEDITOR
+                </h3>
+            </div>
+        </div>
+        <div class="row flex-grow-1">
+            <div class="col-md-6 d-flex flex-column">
+                <div>
+                    <span class="badge badge-info">源格式</span>
+                </div>
+                <textarea class="form-control flex-grow-1" id="markdown" placeholder="input here"></textarea>
+            </div>
+            <div class="col-md-6 d-flex flex-column">
+                <div>
+                    <span class="badge badge-info">预览</span>
+                </div>
+                <label class="flex-grow-1 border border-dark" id="markdown-output"
+                    style="white-space: pre-wrap;/* 保留换行符 */"></label>
+            </div>
+        </div>
+    </div>
+    <script src="script/MarkdownParser.js">
+    </script>
+    <script>
+        new HtmlHandler().TextChangeHandler("markdown", "markdown-output")
+    </script>
+</body>
+
+</html>

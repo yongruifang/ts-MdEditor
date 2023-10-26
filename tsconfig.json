@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "ES2015",
+    "module": "commonjs",
+    "sourceMap": true, //生成源映射文件，允许在调试时将编译后的JavaScript代码映射回原始TypeScript代码，以便更容易调试。
+    "outDir": "./script",
+    "strict": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true, //强制检查函数类型的协变性（返回值类型允许更具体的子类型，参数类型允许更一般的父类型）
+    "noImplicitThis": true, //确保在类方法中使用"this"时进行类型检查，以避免潜在的错误。
+    "alwaysStrict": true, //始终生成"use strict"指令，以确保生成的JavaScript始终在严格模式下运行。
+    "noImplicityReturns": true, //强制每个函数都要有返回语句或隐式返回undefined。
+    "noFallthroughCasesInSwitch": true, //确保在switch语句中没有case语句的"fallthrough"，即不允许不加break的情况。
+    "esModuleInterop": true, //允许在导入模块时与CommonJS模块进行交互，以提高互操作性。
+    "experimentalDecorators": true, //启用实验性支持，允许在类和类成员上使用装饰器。
+  }
+}
