@@ -26,3 +26,6 @@ Flex布局: https://getbootstrap.com/docs/4.1/utilities/flex/#grow-and-shrink
 
 # 文本处理
 ![当前界面](assets/ui-rule.png)
+
+
+部署site：https://653a11c939fb95659ccab051--resonant-cuchufli-3980b9.netlify.app/

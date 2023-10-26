@@ -27,6 +27,7 @@ class HtmlHandler {
             };
             /*刷新页面丢失，解决方案*/
             window.onload = (e) => {
+                console.log('onload', markdownSource);
                 this.RenderHtmlContent(markdownSource, htmlOutput);
             };
         }

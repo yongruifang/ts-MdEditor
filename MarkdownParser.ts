@@ -14,16 +14,6 @@ class HtmlHandler {
             markdownSource.onkeyup = (e) => {
                 /*逻辑移动到RenderHtmlContent方法中*/
                 this.RenderHtmlContent(markdownSource, htmlOutput);
-                /*console.debug(e, markdownSource.value)
-                if (markdownSource.value) {
-                    htmlOutput.innerHTML = markdownSource.value;
-                } else {
-                    htmlOutput.innerHTML = "<p></p>";
-                }*/
-            }
-            /*刷新页面丢失，解决方案*/
-            window.onload = (e) => {
-                this.RenderHtmlContent(markdownSource, htmlOutput);
             }
         }
     }
