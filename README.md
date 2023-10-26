@@ -23,3 +23,6 @@ Flex布局: https://getbootstrap.com/docs/4.1/utilities/flex/#grow-and-shrink
 把实例对象绑定到Textarea，处理keyup事件。触发该事件时，就检查文本区域中是否有文本。
 如果有，就使用这些文本设置标签Label的innerHTML。
 ![当前界面](assets/ui-init.png)
+
+# 文本处理
+![当前界面](assets/ui-rule.png)
