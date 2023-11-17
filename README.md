@@ -27,5 +27,8 @@ Flex布局: https://getbootstrap.com/docs/4.1/utilities/flex/#grow-and-shrink
 # 文本处理
 ![当前界面](assets/ui-rule.png)
 
+# vite版本+remarkable
+![vite版本](assets/vite-init.png)
 
 部署site：https://resonant-cuchufli-3980b9.netlify.app/
+
