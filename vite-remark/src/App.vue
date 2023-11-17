@@ -74,7 +74,7 @@ onMounted(() => {
       </div>
     </div>
     <div h-xs md:h-2xl f-c-c overflow-auto text-20 md:text-40>
-      <a icon-btn i-carbon-logo-github text-30 md:text-40 href="https://github.com/yongruifang" />
+      <a icon-btn i-carbon-logo-github text-30 md:text-40 href="https://github.com/yongruifang/ts-MdEditor" />
       <!-- <div text-20 h-full mx-40 mt-20 px-20 class="bg-red-200/25 dark:bg-cyan-950/25" v-text="renderText">
       </div> -->
     </div>
