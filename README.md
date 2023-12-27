@@ -30,5 +30,4 @@ Flex布局: https://getbootstrap.com/docs/4.1/utilities/flex/#grow-and-shrink
 # vite版本+remarkable
 ![vite版本](assets/vite-init.png)
 
-部署site：https://resonant-cuchufli-3980b9.netlify.app/
-
+部署site：[mdeditor-remark.netlify.app](https://mdeditor-remark.netlify.app/)
